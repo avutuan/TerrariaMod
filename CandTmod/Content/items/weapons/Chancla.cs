@@ -19,7 +19,7 @@ namespace CandTmod.Content.Items.Weapons
 
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useTime = 20;
-            Item.useAnimation = 1;
+            Item.useAnimation = 20;
             Item.autoReuse = true;
 
             Item.DamageType = DamageClass.Melee;
