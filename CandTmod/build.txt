@@ -1,0 +1,3 @@
+displayName = Caden and Tuan mod
+author = Caden and Tuan
+version = 0.1
