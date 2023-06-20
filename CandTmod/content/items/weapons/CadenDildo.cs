@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 
-namespace CandTmod.content.items.weapons
+namespace CandTmod.Content.Items.Weapons
 {
     internal class CadenDildo : ModItem
     {
@@ -11,14 +11,13 @@ namespace CandTmod.content.items.weapons
         {
             DisplayName.SetDefault("Caden's Dildo");
             Tooltip.SetDefault("The dildo made from Caden's Dick");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededbyItemId[Type] = 1;
         }
         public override void SetDefaults()
         {
             Item.width = 32;
             Item.height = 32;
 
-            Item.useStyle = ItemUseStyle.ID.Swing;
+            Item.useStyle = ItemUseStyleID.Swing;
             Item.useTime = 20;
             Item.useAnimation = 20;
             Item.autoReuse = true;
