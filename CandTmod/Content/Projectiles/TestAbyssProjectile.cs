@@ -29,5 +29,18 @@ namespace CandTmod.Content.Projectiles
 			Projectile.tileCollide = false; // Can the projectile collide with tiles?
 			Projectile.timeLeft = 300; // The live time for the projectile (60 = 1 second, so 600 is 10 seconds)
 		}
+		public override void AI()
+		{
+			int dust = Dust.NewDust(Projectile.Center, 1, 1, 15, 0f, 0f, 0, default(Color), 1f);
+			Main.dust[dust].velocity *= 0.3f;
+			Main.dust[dust].scale = (float)Main.rand.Next(80, 115) * 0.013f;
+			Main.dust[dust].noGravity = true;
+
+			int dust2 = Dust.NewDust(Projectile.Center, 1, 1, 15, 0f, 0f, 0, default(Color), 1f);
+			Main.dust[dust2].velocity *= 0.3f;
+			Main.dust[dust2].scale = (float)Main.rand.Next(80, 115) * 0.013f;
+			Main.dust[dust2].noGravity = true;
+
+		}	
 	}
 }
