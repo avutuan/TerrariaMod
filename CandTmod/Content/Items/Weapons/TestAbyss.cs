@@ -73,22 +73,8 @@ namespace CandTmod.Content.Items.Weapons
         {
             if (Main.rand.Next(6) == 0)
             {
-				Dust.NewDust(Item.Center, 1, 1, 15, 0f, 0f, 0, default(Color), 1f);
-
+                Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, ModContent.DustType<RedPaint>());
             }
         }
-		// public override void AI()
-		// {
-		// 	int dust = Dust.NewDust(Item.Center, 1, 1, 15, 0f, 0f, 0, default(Color), 1f);
-		// 	Main.dust[dust].velocity *= 0.3f;
-		// 	Main.dust[dust].scale = (float)Main.rand.Next(80, 115) * 0.013f;
-		// 	Main.dust[dust].noGravity = true;
-
-		// 	int dust2 = Dust.NewDust(Item.Center, 1, 1, 15, 0f, 0f, 0, default(Color), 1f);
-		// 	Main.dust[dust2].velocity *= 0.3f;
-		// 	Main.dust[dust2].scale = (float)Main.rand.Next(80, 115) * 0.013f;
-		// 	Main.dust[dust2].noGravity = true;
-
-		// }	
 	}
 }
