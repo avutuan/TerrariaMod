@@ -1,8 +1,8 @@
 using Terraria.ModLoader;
 
-namespace ExampleMod.Content.Dusts
+namespace CandTmod.Content.Dusts
 {
-	public class ExampleSolution : ModDust
+	public class CadenDust : ModDust
 	{
 		public override void SetStaticDefaults() {
 			UpdateType = 110;

@@ -5,6 +5,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using CandTmod.Content.Projectiles;
+using CandTmod.Content.Dusts;
 
 namespace CandTmod.Content.Items.Weapons
 {
