@@ -73,7 +73,7 @@ namespace CandTmod.Content.Items.Weapons
         {
             if (Main.rand.Next(6) == 0)
             {
-                Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, ModContent.DustType<RedPaint>());
+                Dust.NewDust(new Vector2(hitbox.X, hitbox.Y), hitbox.Width, hitbox.Height, ModContent.DustType<CadenDust>());
             }
         }
 	}
