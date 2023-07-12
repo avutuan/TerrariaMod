@@ -5,30 +5,30 @@ using Terraria.GameContent.Creative;
 
 namespace CandTmod.Content.Items.Weapons
 {
-    internal class GardenScythe : ModItem
+    internal class StoneRose : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Garden Scythe");
-            Tooltip.SetDefault("The flowers are beautiful");
+            DisplayName.SetDefault("Stone Rose");
+            Tooltip.SetDefault("The stone flowers are beautiful");
         }
         public override void SetDefaults()
         {
-            Item.width = 320;
-            Item.height = 320;
+            Item.width = 116;
+            Item.height = 116;
 
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.useTime = 8;
-            Item.useAnimation = 8;
+            Item.useTime = 12;
+            Item.useAnimation = 12;
             Item.autoReuse = true;
 
             Item.DamageType = DamageClass.Melee;
-            Item.damage = 1;
-            Item.knockBack = 90f;
-            Item.crit = 100;
+            Item.damage = 134;
+            Item.knockBack = 0f;
+            Item.crit = 10;
 
             Item.value = Item.buyPrice(silver: 80, copper: 50);
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Red;
 
             Item.UseSound = SoundID.Item1;
         }

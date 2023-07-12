@@ -32,12 +32,5 @@ namespace CandTmod.Content.Items.Weapons
 
             Item.UseSound = SoundID.Item1;
         }
-        public override void AddRecipes()
-        {
-            CreateRecipe()
-                .AddIngredient(ModContent.ItemType<CadenDick>(), 12)
-                .AddTile(TileID.Anvils)
-                .Register();
-        }
     }   
 }
