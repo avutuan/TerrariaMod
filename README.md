@@ -1,3 +1,2 @@
-# TerrariaMod
-Me and Caden's Terraria Mod
-random ass shit
+# Terraria Mod
+Mod by Tuan Vu and Caden Kelley
