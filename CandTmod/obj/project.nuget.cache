@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3fJiwwku6PA9vlOMI4PkJEAgrNxu5IkJIzAALtC/r2XU+VPZ8eUmPFZueoQhmFFY+dEWaFdnVI2gcVlORw8OwQ==",
+  "success": true,
+  "projectFilePath": "/Users/tuanvu/Library/Application Support/Terraria/tModLoader/ModSources/CandTmod/CandTmod.csproj",
+  "expectedPackageFiles": [
+    "/Users/tuanvu/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

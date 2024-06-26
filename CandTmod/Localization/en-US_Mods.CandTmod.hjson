@@ -1,0 +1,43 @@
+Items: {
+	Abyss: {
+		DisplayName: Abyss
+		Tooltip: ""
+	}
+
+	AnimaCross: {
+		DisplayName: Anima Cross
+		Tooltip: ""
+	}
+
+	Chancla: {
+		DisplayName: Chancla
+		Tooltip: ""
+	}
+
+	GardenScythe: {
+		DisplayName: Garden Scythe
+		Tooltip: ""
+	}
+
+	StoneRose: {
+		DisplayName: Stone Rose
+		Tooltip: ""
+	}
+
+	Whatever: {
+		DisplayName: Whatever
+		Tooltip: ""
+	}
+
+	GoldenHighwind: {
+		DisplayName: Golden Highwind
+		Tooltip: ""
+	}
+
+	Incursio: {
+		DisplayName: Incursio
+		Tooltip: ""
+	}
+}
+
+Projectiles.TestAbyssProjectile.DisplayName: Test Abyss Projectile

@@ -1,17 +1,13 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.GameContent.Creative;
 
 namespace CandTmod.Content.Items.Weapons
 {
     internal class Chancla : ModItem
     {
-        public override void SetStaticDefaults()
-        {
-            DisplayName.SetDefault("Chancla");
-            Tooltip.SetDefault("Also known as mother's wrath");
-        }
         public override void SetDefaults()
         {
             Item.width = 128;

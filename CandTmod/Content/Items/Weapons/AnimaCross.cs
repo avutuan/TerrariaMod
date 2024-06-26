@@ -13,9 +13,6 @@ namespace CandTmod.Content.Items.Weapons
 	public class AnimaCross : ModItem
 	{
 		public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Anima Cross");
-			Tooltip.SetDefault("This is a modded sword that shoots Star Wrath-like projectiles. (testing)");
-
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
 

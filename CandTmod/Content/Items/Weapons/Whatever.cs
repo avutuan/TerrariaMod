@@ -7,11 +7,6 @@ namespace CandTmod.Content.Items.Weapons
 {
     internal class Whatever : ModItem
     {
-        public override void SetStaticDefaults()
-        {
-            DisplayName.SetDefault("What Ever");
-            Tooltip.SetDefault("The What Ever");
-        }
         public override void SetDefaults()
         {
             Item.width = 32;

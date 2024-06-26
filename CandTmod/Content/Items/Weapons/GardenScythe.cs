@@ -7,11 +7,6 @@ namespace CandTmod.Content.Items.Weapons
 {
     internal class GardenScythe : ModItem
     {
-        public override void SetStaticDefaults()
-        {
-            DisplayName.SetDefault("Garden Scythe");
-            Tooltip.SetDefault("The flowers are beautiful");
-        }
         public override void SetDefaults()
         {
             Item.width = 320;

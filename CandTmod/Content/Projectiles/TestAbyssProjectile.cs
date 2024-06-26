@@ -10,7 +10,6 @@ namespace CandTmod.Content.Projectiles
 	public class TestAbyssProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
-			DisplayName.SetDefault("Test Abyss Projective"); // Name of the projectile. It can be appear in chat
 			ProjectileID.Sets.CultistIsResistantTo[Projectile.type] = true; // Make the cultist resistant to this projectile, as it's resistant to all homing projectiles.
 		}
 

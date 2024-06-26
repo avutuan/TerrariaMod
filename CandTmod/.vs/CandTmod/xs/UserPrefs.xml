@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <DisabledProjects>
+    <String>CandTmod.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workbench ActiveDocument="build.txt">
+    <Files>
+      <File FileName="Content/Items/Weapons/Incursio.cs" Line="23" Column="42" IsPinned="True" />
+      <File FileName="Content/Items/Weapons/GardenScythe.cs" Line="26" Column="1" />
+      <File FileName="Content/Items/Weapons/StoneRose.cs" Line="25" Column="37" />
+      <File FileName="Content/Items/Weapons/GoldenHighwind.cs" Line="25" Column="44" />
+      <File FileName="build.txt" Line="3" Column="14" />
+      <File FileName="Content/Items/Weapons/Abyss.cs" Line="55" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
